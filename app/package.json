@@ -1,0 +1,21 @@
+{
+  "main": "index.html",
+  "name": "nwjsPack Test",
+  "description": "Test for nwjsPack",
+  "version": "0.0.1",
+  "keywords": [ "foo-bar", "node-webkit" ],
+  "chromium-args": "--enable-experimental-web-platform-features --enable-threaded-compositing",
+  "window": {
+    "title": "nwjsPack",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
