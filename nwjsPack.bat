@@ -5,5 +5,6 @@ del "app.nw"
 ren "app.zip" "app.nw"
 copy /b ".\data\nw.exe"+app.nw .\release\app.exe
 copy /b ".\data\*" .\release\
+xcopy ".\data\locales" .\release\locales
 del "app.nw"
 del ".\release\nw.exe"
